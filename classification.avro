@@ -1,0 +1,70 @@
+{
+    "namespace": "zooniverse.avro",
+    "type": "record",
+    "name": "Classification",
+    "fields": [
+        {
+            "name": "id",
+            "type": "string"
+        },
+        {
+            "name": "project_id",
+            "type": "string"
+        },
+        {
+            "name": "user_id",
+            "type": [ "string", null ]
+        },
+        {
+            "name": "workflow_id",
+            "type": "string"
+        },
+        {
+            "name": "created_at",
+            "type": "string"
+        },
+        {
+            "name": "updated_at",
+            "type": [ "string", null ]
+        },
+        {
+            "name": "user_group_id",
+            "type": [ "string", null ]
+        },
+        {
+            "name": "user_ip",
+            "type": "string"
+        },
+        {
+            "name": "completed",
+            "type": "boolean"
+        },
+        {
+            "name": "gold_standard",
+            "type": [ "boolean", null ]
+        },
+        {
+            "name": "expert_classifier",
+            "type": [ "boolean", null ]
+        },
+        {
+            "name": "subject_ids"
+            "type": "array",
+            "items": "strings"
+        },
+        {
+            "name": "workflow_version",
+            "type": [ "string", null ]
+        },
+        {
+            "name": "answered_tasks"
+            "type": "array",
+            "items": "string"
+        },
+        {
+            "name": "metadata"
+            "type": "map",
+            "items": "string"
+        }
+    ]
+}
