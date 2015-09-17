@@ -1,0 +1,31 @@
+{
+    "namespace": "zooniverse.avro",
+    "type": "record",
+    "name": "Annotation",
+    "fields": [
+        {
+            "name": "id",
+            "type": "string"
+        },
+        {
+            "name": "answered_task",
+            "type": "string"
+        },
+        {
+            "name": "type",
+            "type": "string"
+        },
+        {
+            "name": "answer"
+            "type": "string"
+        },
+        {
+            "name": "classification_id",
+            "type": "string"
+        },
+        {
+            "name": "subject_id",
+            "type": "string"
+        }
+    ]
+}
